@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius:10px ;
+    margin:50px 10px 0 25px;
+    background-color: #f2f2f2;
+    padding: 24px;
+    width: 326px;
+    height: 364px; /* Set a height for the card to see the flex effect */
+    
+  }
+  
+  .card h3 {
+    font-size: x-large;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-bottom: 25px;
+  }
+  
+  .card span {
+    flex-grow: 1; /* This will push the other elements to the bottom */
+  }
+  
+  .card h5, .card p {
+    margin: 0;
+    align-self: flex-start; /* Optional: You can change alignment to flex-start, center, or flex-end */
+  }
+  .container{
+    display: flex;
+    width: fit-content;
+  }
+  .star{
+    font-size: larger;
+    color: black;
+  }

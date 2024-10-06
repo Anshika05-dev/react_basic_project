@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+.service
+{   
+    display: flex;
+    flex-direction: column;
+    border-radius:8px ;
+    margin:50px 10px 0 25px;
+    background-color: #fff;
+    border: 1px solid #f2f2f2;
+    /* padding: 24px; */
+    width: 322px;
+    height: 385px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.service p{
+    color: gray;
+    margin-bottom: 18px;
+    margin-top:2px;
+    padding:5px;
+    font:400 16px / 16px Roobert PRO;
+}
+.service img{
+    flex-grow: 1;
+    width: 322px;
+    height: 181.13px;
+    border-top-left-radius:8px ;
+    border-top-right-radius:8px ;
+    border-bottom: 1px solid #f2f2f2;
+}
+#type{
+    margin-left: 3px;
+    margin-bottom: 5px;
+    border-radius:25px;
+    border: 1.5px solid #e5dfdf;
+    padding:2px;
+    width: fit-content;
+    text-align: center;
+    height: 24px;
+}
+.service h3{
+    font:600 20px / 18px Roobert PRO;
+    padding-left: 5px;
+    margin-bottom: 2px;
+}
+.service span{
+    padding-left: 5px;
+    margin-bottom: 2px;
+}
+.contain{
+    display: flex;
+    width: fit-content;
+  }
